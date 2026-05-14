@@ -7,8 +7,6 @@
 1. Atver projekta mapi.
 2. Atver failu `index.html` jebkurā pārlūkā.
 
-Nav nepieciešams instalēt Java, JDK, `javac` vai citas programmas.
-
 ## Ko dara faili
 
 - `index.html` ir galvenā lapa ar virsrakstu, ievades laukiem un uzdevumu sarakstu.
