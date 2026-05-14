@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #1f2937;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100%;
+    max-width: 760px;
+    background: white;
+    border-radius: 18px;
+    padding: 28px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.form {
+    display: grid;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #d5ddea;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.top-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.add-btn {
+    background: #2563eb;
+    color: white;
+}
+
+.clear-btn {
+    background: #e5e7eb;
+    color: #111827;
+}
+
+.list {
+    display: grid;
+    gap: 14px;
+}
+
+.task {
+    background: #f9fbff;
+    border-radius: 14px;
+    padding: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.task.done {
+    opacity: 0.7;
+}
+
+.task.done h3,
+.task.done p,
+.task.done span {
+    color: #6b7280;
+    text-decoration: line-through;
+}
+
+.task h3 {
+    margin: 0 0 10px 0;
+}
+
+.info {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.tag {
+    background: #e7eefc;
+    border-radius: 999px;
+    padding: 6px 10px;
+    font-size: 13px;
+}
+
+.late {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+.done-btn {
+    background: #16a34a;
+    color: white;
+}
+
+.delete-btn {
+    background: #dc2626;
+    color: white;
+}
+
+.empty {
+    text-align: center;
+    padding: 20px;
+    border-radius: 14px;
+    background: #f9fbff;
+}

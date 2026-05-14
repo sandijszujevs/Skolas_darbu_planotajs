@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skolas darbu plānotājs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <div class="box">
+            <h1>Skolas darbu plānotājs</h1>
+
+            <form id="taskForm" class="form">
+                <input type="text" id="name" placeholder="Uzdevuma nosaukums" required>
+                <input type="text" id="subject" placeholder="Priekšmets" required>
+                <input type="date" id="date" required>
+                <textarea id="text" placeholder="Apraksts" rows="4"></textarea>
+                <div class="top-buttons">
+                    <button type="submit" class="add-btn">Pievienot uzdevumu</button>
+                    <button type="button" id="clearBtn" class="clear-btn">Notīrīt laukus</button>
+                </div>
+            </form>
+
+            <div id="list" class="list"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
